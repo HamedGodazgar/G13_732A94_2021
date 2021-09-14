@@ -14,7 +14,6 @@
 #' dijkstra(wiki_graph, 3)
 
 
-library(igraph)
 
 dijkstra <- function(graph,init_node){
   set.seed(500)

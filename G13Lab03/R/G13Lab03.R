@@ -14,3 +14,5 @@
 #'          exist in the graph.
 #' @docType package
 #' @name G13Lab03
+
+library(igraph)
