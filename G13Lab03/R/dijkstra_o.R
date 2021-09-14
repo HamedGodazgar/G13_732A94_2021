@@ -1,18 +1,19 @@
-#' Shortest Path
+#' @title Shortest Path
 #' @param graph A graph.
 #' @param init_node An initial node.
 #' @description Find the shortest path from the initial 
 #'              node to every other node in the graph.
 #' @return The shortest path of \code{graph} and \code{init_node}.
 #' @source \url {https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm}
-#' @seealso \url{https://en.wikipedia.org/wiki/Graph_(mathematics}
+#' @seealso \url{https://en.wikipedia.org/wiki/Graph_(mathematics)}
 #' @details Should assert that the graph argument have the above 
 #'          structure and that init_node is a numeric scalar that
 #'          exist in the graph.
 #' @examples
 #' dijkstra(wiki_graph, 1)
 #' dijkstra(wiki_graph, 3)
-#' 
+
+
 library(igraph)
 
 dijkstra <- function(graph,init_node){

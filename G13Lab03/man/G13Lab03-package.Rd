@@ -22,15 +22,18 @@ The DESCRIPTION file:
 Maintainer: \packageMaintainer{G13Lab03}
 }
 \references{
-~~ Literature or other references for background information ~~
+https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 }
 ~~ Optionally other standard keywords, one per line, from file ~~
 ~~ KEYWORDS in the R documentation directory ~~
 \keyword{ package }
 \seealso{
-~~ Optional links to other man pages, e.g. ~~
+https://en.wikipedia.org/wiki/Graph_(mathematics, e.g. ~~
 ~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
 }
 \examples{
-~~ simple examples of the most important functions ~~
+dijkstra(wiki_graph, 1)
+dijkstra(wiki_graph, 3)
+euclidean(123612, 13892347912)
+euclidean(100, 1000)
 }

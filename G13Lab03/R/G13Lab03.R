@@ -4,7 +4,7 @@
 #' in the graph
 #' The foo package provides two functions:
 #' Greatest Common Divisor (GCD) and Shortest Path: 
-#' @section Freatest Coomon Divisor (GCD): It finds the 
+#' @section Greatest Common Divisor (GCD): It finds the 
 #'          Greatest Common Divisor of two given numbers and should
 #'          assert that the arguments are numeric scalars or integers.
 #' @section Shortest Path: ind the shortest path from the initial 

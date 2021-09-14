@@ -1,5 +1,5 @@
 
-#' Greatest Common Divisor of two numbers.
+#' @title Greatest Common Divisor of two numbers.
 #' @param num1 A number.
 #' @param num2 A number.
 #' @description Find the Greatest Common Divisor of two given numbers
