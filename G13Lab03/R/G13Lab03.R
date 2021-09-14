@@ -1,0 +1,16 @@
+
+#' G13Lab03: A package which calculates Greatest Common Divisor (GCD) 
+#' and the Shortest Path from the initial node to every other node
+#' in the graph
+#' The foo package provides two functions:
+#' Greatest Common Divisor (GCD) and Shortest Path: 
+#' @section Freatest Coomon Divisor (GCD): It finds the 
+#'          Greatest Common Divisor of two given numbers and should
+#'          assert that the arguments are numeric scalars or integers.
+#' @section Shortest Path: ind the shortest path from the initial 
+#'          node to every other node in the graph and should assert 
+#'          that the graph argument have the above structure and 
+#'          that init_node is a numeric scalar that
+#'          exist in the graph.
+#' @docType package
+#' @name G13Lab03

@@ -1,4 +1,15 @@
 
+#' Greatest Common Divisor of two numbers.
+#' @param num1 A number.
+#' @param num2 A number.
+#' @description Find the Greatest Common Divisor of two given numbers
+#' @return The Greatest Common Divisor of \code{num1} and \code{num2}.
+#' @source \url {https://en.wikipedia.org/wiki/Euclidean_algorithm}
+#' @details Should assert that the arguments are numeric scalars or integers.
+#' @examples
+#' euclidean(123612, 13892347912)
+#' euclidean(100, 1000)
+
 euclidean <- function(num1,num2){
   num1 <- abs(num1)
   num2 <- abs(num2)

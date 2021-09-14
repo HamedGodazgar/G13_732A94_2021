@@ -1,6 +1,6 @@
 Package: G13Lab03
 Type: Package
-Title: our first pack
+Title: Greatest Common Divisor and Shortest Path
 Version: 0.0.0.9000
 Date: 2021-09-11
 Authors@R: 
@@ -9,9 +9,12 @@ Authors@R:
          role = c('aut' , 'cre'),
          email = 'hamed.godazgar@gmail.com')
 Maintainer: Omid Lavakhamseh <omidlava2021@gmail.com>
-Description: it looks as if it is our first package but unfortunately we encounter 
-             problems that we do not know what to do and I am just writing down these
-             words to fill this field and I do not know if it is ok or not.
+Description: This package calculates Greatest Xommon Divisor (GCD) 
+             which returns GCD of two numbers, and Shortest Path 
+             from the initial node to every other node in the graph.
+Details: This package calculates Greatest Common Divisor (GCD) 
+         and the Shortest Path from the initial node to every
+         other node in the graph.
 License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: TRUE
